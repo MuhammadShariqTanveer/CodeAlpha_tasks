@@ -11,8 +11,8 @@
     <h1>Age Calculator</h1>
     <form id="age-form">
         <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob" required><br>
-        <button type="button" onclick="calculateAge()">Calculate Age</button>
+        <input type="date" id="dob" name="dob" required oninput="validateDOB()">
+        <button type="button" id="calculate-button" onclick="calculateAge()" >Calculate Age</button>
     </form>
     <p id="result"></p>
     </div>

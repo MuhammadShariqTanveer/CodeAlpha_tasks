@@ -1,4 +1,40 @@
+body{
+    /* background-color: brown; */
+}
+
 #main{
- text-align: center;
+margin: 150px auto;
+text-align: center;
  font-family: Arial, Helvetica, sans-serif;
+ /* background-color: chocolate; */
+ width: 50%;
+}
+
+#main label{
+    font-size: 20px;
+}
+
+#main input{
+    font-size:larger;
+}
+
+#main button{
+    font-size: medium;
+    background-color: red;
+}
+
+#main button:hover{
+    /* background-color:brown;
+    color: red; */
+}
+
+.error{
+    color: red;
+}
+
+.button-error {
+    background-color: red;
+}
+.button-valid {
+    background-color: green;
 }
