@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="main">
     <h1>Age Calculator</h1>
     <form id="age-form">
         <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob" required>
+        <input type="date" id="dob" name="dob" required><br>
         <button type="button" onclick="calculateAge()">Calculate Age</button>
     </form>
     <p id="result"></p>
-    
+    </div>
 
     <script src="ageCalculator.js"></script>
 </body>
