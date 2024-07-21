@@ -1,6 +1,4 @@
-body{
-    /* background-color: brown; */
-}
+
 
 #main{
 margin: 150px auto;
@@ -20,16 +18,15 @@ text-align: center;
 
 #main button{
     font-size: medium;
-    background-color: red;
-}
-
-#main button:hover{
-    /* background-color:brown;
-    color: red; */
+     color: white;
 }
 
 .error{
     color: red;
+}
+
+.error-valid{
+    color: green;
 }
 
 .button-error {

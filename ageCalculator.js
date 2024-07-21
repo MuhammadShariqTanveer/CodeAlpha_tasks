@@ -27,6 +27,8 @@ function calculateAge() {
         }
         
         document.getElementById('result').textContent = `You are ${age} years old.`;
+        document.getElementById('result').classList.add('error-valid');
+
     } else {
         document.getElementById('result').textContent = 'Please enter your date of birth.';
         document.getElementById('result').classList.add('error');
